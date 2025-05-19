@@ -1,0 +1,259 @@
+*, body, html {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 1.02em;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Definindo o HR (linha horizontal)*/
+hr {
+    display: block; /* Garante que esteja visível */
+    height: 1px; /* Define altura */
+    width: 100%; /* Largura total */
+    background-color: #333; /* Cor da linha */
+    border: none; /* Remove bordas padrões */
+    margin: 3em 0 !important; /* Margem superior e inferior */
+}
+
+/*Estilo do cabeçalho*/
+header {
+    background-color: #000;
+    height: 70px;
+}
+
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header > nav > .div__logo{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+header > nav > .div__logo img{
+    width: 100%;
+    height: 100%;
+}
+
+header > nav, ul{
+    height: 100%;
+}
+
+header > nav > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+}
+
+header > nav > ul > li {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+header > nav > ul > li:hover {
+    background-color: #3cff22;
+    color: #000;
+}
+
+header > nav > ul > li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+header > nav > ul > li a:hover {
+    color: #000;
+}
+
+.main__principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+/*Estilo do conteúdo*/
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #000000db;
+    color: #fff !important;
+}
+
+.carousel.slide {
+    margin: 20px auto;
+    width: 90%;
+}
+
+.carousel-item img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    transition: none;
+}
+
+.main__btn {
+    background-color: #3cff22;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    margin: 20px 0;;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.main__btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/*Estilo da segunda parte do site*/
+
+.main__exercicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main__exercicios h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #000000db;
+    color: #fff;
+}
+
+.container__exercicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px 15px;
+    flex-wrap: wrap;
+}
+
+.div__exercicio {
+    height: 250px;
+    width: calc(30% - 10px);
+    background-color: #000;
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+}
+
+.div__exercicio:hover {
+    transform: scale(1.05);
+}
+
+.img__exercicio {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.btn__exercicio {
+    position: absolute; /* Sobrepõe a imagem */
+    top: 90%;
+    left: 50%;
+    width: 60%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s;
+}
+
+.btn__exercicio:hover {
+    background: rgba(0, 0, 0, 0.9);
+} 
+
+/*Estilo da parte Sobre*/
+
+.main__sobre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.main__sobre h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: #c2c2c26b;
+    border-radius: 10px;
+}
+
+.container__texto{
+    display: flex;
+    justify-content: center;
+    gap: 1em 7em;
+    width: 90%;
+    margin-bottom: 70px;
+}
+
+.container__texto h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sobre__texto {
+    width: 350px;
+    text-align: justify;
+    padding: 20px;
+    background-color: #c2c2c26b;
+    border-radius: 10px;
+}
+
+/*Estilo do rodapé*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0 !important;
+}
