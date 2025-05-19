@@ -1,115 +1,150 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Como Malha</title>
-    <link rel="icon" type="image/png" href="images/logo-cm.png">
+    <title>Exercícios para Perna</title>
     <link rel="stylesheet" href="css/style.css">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Font Roboto -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/style-exercicios.css">
+    <link rel="shortcut icon" href="images/logo-cm.png" type="image/x-icon">
 </head>
 <body>
     <header>
-        <nav class="header__nav">
-            <div class="div__logo">
-                <img src="images/logo-cm.png" alt="">
-            </div>
-            <ul class="nav__list">
-                <li><a href="#">Home</a></li>
-                <li><a href="exercicios.html" target="_blank">Exercícios</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Criar Conta</a></li>
-
-            </ul>
-        </nav>
+            <nav class="header__nav">
+                <div class="div__logo">
+                    <img src="images/logo-cm.png" alt="">
+                </div>
+                <ul class="nav__list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="exercicios.html" target="_blank">Exercícios</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Criar Conta</a></li>
+                </ul>
+            </nav>
     </header>
     <main>
-        <h1>Vem treinar com a gente!</h1>
-        <!--Carrossel de imagens com BootStrap-->
-        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/ex1.jpg" class="d-block w-100" alt="Imagem 1">
-                </div>
+        <h1>Exercícios</h1>
 
-                <div class="carousel-item">
-                    <img src="images/ex2.jpg" class="d-block w-100" alt="Imagem 2">
-                </div>
+        <!-- Adicione o conteúdo dos exercícios aqui -->
+        <section class="all__exercicios">
 
-                <div class="carousel-item">
-                    <img src="images/ex3.jpg" class="d-block w-100" alt="Imagem 3">
-                </div>
-            </div>
+            <h2>Exercicios para Perna:</h2>
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
+            <hr>
 
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
-        </div>
+            <div class="exercicio">
+                <h3>Agachamento Hack Linear</h3>
 
-        <button class="main__btn">Criar Treino</button>
-        
-        <hr>
+                <h4>Sugestão de Vídeo:</h4>
 
-        <section class="main__exercicios">
-            <h2>Veja como realizar todos os exercicios!</h2>
-            <div class="container__exercicios">
-                <div class="div__exercicio">
-                    <img class="img__exercicio" src="images/ex-peito.png" alt="ex1">
-                    <button class="btn__exercicio">Peito</button>
-                </div>
-                <div class="div__exercicio">
-                    <img class="img__exercicio" src="images/ex-costas.png" alt="ex1">
-                    <button class="btn__exercicio">Costas</button>
-                </div>
-                <div class="div__exercicio">
-                    <img class="img__exercicio" src="images/ex-ombro.png" alt="ex1">
-                    <button class="btn__exercicio">Ombro</button>
-                </div>
-                <div class="div__exercicio">
-                    <img class="img__exercicio" src="images/ex-braco.png" alt="ex1">
-                    <button class="btn__exercicio">Braços</button>
-                </div>
-                <div class="div__exercicio">
-                    <img class="img__exercicio" src="images/ex-perna.png" alt="ex1">
-                    <button class="btn__exercicio">Pernas</button>
-                </div>
-                <div class="div__exercicio">
-                    <img class="img__exercicio" src="images/ex-core.png" alt="ex1">
-                    <button class="btn__exercicio">Core</button>
-                </div>
-            </div>
-        </section>
-
-        <hr>
-
-        <section class="main__sobre">
-            <h2>Sobre nós</h2>
-            <div class="container__texto">
-
-                <div class="sobre__texto">
-                    <h3>O Que Oferecemos</h3>
-                    Nosso site foi criado para ajudar você a organizar seu treino de forma prática e intuitiva. <br/><br/>Com ele, você pode montar sua própria lista de exercícios e acompanhar seu progresso ao longo do tempo. <br/><br/>Na página principal, cada exercício da sua lista vem acompanhado de um vídeo, imagem ou link explicativo, garantindo que você saiba exatamente como executar cada movimento corretamente.
-                </div>
-
-                <div class="sobre__texto">
-                    <h3>Como Funciona</h3>
-                    Seja você iniciante ou avançado, aqui você encontra uma plataforma dinâmica e interativa para otimizar seus treinos e alcançar seus objetivos. <br/><br/>Simples, eficiente e visual. <br/><br/>Basta escolher seus exercícios, montar sua rotina e seguir os passos apresentados diretamente na sua tela.
+                <div class="sugestao-video-exercicio">
+                    <iframe class="video-exercicio" src="https://www.youtube.com/embed/-kkdCTFBkNI?si=tCtlRWfazM6fk--4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
 
             </div>
-            
+
+            <hr>
+
+            <div class="exercicio">              
+                <h3>Cadeira Extensora</h3>
+
+                <h4>Sugestão de Vídeo:</h4>
+
+                <div class="sugestao-video-exercicio">
+                    <iframe class="video-exercicio" src="https://www.youtube.com/embed/el3oHblB5DM?si=DRmPxUGQLbwHspFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="exercicio">              
+                <h3>Leg Press 45º</h3>
+                
+                <h4>Sugestão de Vídeo:</h4>
+                <div class="sugestao-video-exercicio">
+                    <iframe class="video-exercicio" src="https://www.youtube.com/embed/er2WkC80JOY?si=koc00O4onRSxnn37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="exercicio">              
+                    <h3>Mesa Flexora</h3>
+                    
+                    <h4>Sugestão de Vídeo:</h4>
+                    <div class="sugestao-video-exercicio">
+                        <iframe class="video-exercicio" src="https://www.youtube.com/embed/2-ULaRrQa7c?si=VntvIvYqTIZWmhN5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div class="exercicio">              
+                    <h3>Cadeira Adutora</h3>
+
+                    <h4>Sugestão de Vídeo:</h4>
+                    <div class="sugestao-video-exercicio">
+                        <iframe class="video-exercicio" src="https://www.youtube.com/embed/_zmi7vtsimI?si=totuTaPsW9WJ0tIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div class="exercicio">              
+                    <h3>Flexão de Braço</h3>
+
+                    <h4>Sugestão de Vídeo:</h4>
+                    <div class="sugestao-video-exercicio">
+                        <iframe class="video-exercicio" src="https://www.youtube.com/embed/Zss6E3VU6X0?si=gL_GYrDc2nePau6S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div class="exercicio">              
+                    <h3>Cadeira Abdutora</h3>
+
+                    <h4>Sugestão de Vídeo:</h4>
+                    <div class="sugestao-video-exercicio">
+                        <iframe class="video-exercicio" src="https://www.youtube.com/embed/GNxSJQsJOsA?si=QoqfxT25RjL9aeRj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div class="exercicio">              
+                    <h3>Gemeos em Pé Smith</h3>
+
+                    <h4>Sugestão de Vídeo:</h4>
+                    <div class="sugestao-video-exercicio">
+                        <iframe class="video-exercicio" src="https://www.youtube.com/embed/r7OC-a9dCd4?si=YNeHfgXB8slss81m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div class="exercicio">              
+                    <h3>Abdominal Infra</h3>
+
+                    <h4>Sugestão de Vídeo:</h4>
+                    <div class="sugestao-video-exercicio">
+                    <iframe class="video-exercicio" src="https://www.youtube.com/embed/ixJcUH8AlL8?si=1Y-cTARuCH57O0An" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div class="exercicio">              
+                    <h3>Esteira!!!</h3>
+
+                    <div class="sugestao-video-exercicio" style="text-align: center;">
+                        :D Faça Esteira
+                    </div>
+            </div>
+
+            <hr>
+            <!-- Adicione mais exercícios conforme necessário -->
         </section>
     </main>
 
@@ -118,8 +153,6 @@
             <p>Como malha &copy;</p>
         </div>
     </footer>
-    
-    <script src="js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
